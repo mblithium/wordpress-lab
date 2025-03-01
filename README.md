@@ -21,27 +21,27 @@ npm install
 npm start
 ```
 
-### Encerrar ambiente e testes:**
+### Encerrar ambiente e testes:
 
 ```bash
 npm stop
 ```
 
-### Resetar a instalação do WordPress**:
+### Resetar a instalação do WordPress:
 (Apaga todos os posts, páginas, arquivos, entre outras coisas)
 
 ```bash
 npm reset
 ```
 
-### Recomeçar toda a instalação do WordPress**:
+### Recomeçar toda a instalação do WordPress:
 (Joga uma bomba na instalação do ~/.wp-env e recomeça)
 
 ```bash
 npm nuke
 ```
 
-### Executar o WP-CLI**
+### Executar o WP-CLI
 
 ```bash
 npm wp-cli ["comando do wp-cli aqui"]
