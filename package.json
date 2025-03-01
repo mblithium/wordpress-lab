@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "npx wp-env start",
+    "stop": "npx wp-env stop",
+    "update": "npx wp-env update",
+    "reset": "npx wp-env clean all && npx wp-env start",
+    "nuke": "npx wp-env destroy",
+    "wp-cli": "wp-env run cli wp"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^10.19.0"
+  }
+}
